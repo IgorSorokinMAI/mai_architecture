@@ -1,9 +1,9 @@
 
 #include <optional>
-#include "other_server/http_other_server.h"
+#include "package_service/http_package_server.h"
 
 int main(int argc, char*argv[]) 
 {
-    HTTPOtherWebServer app;
+    HTTPPackageServer app;
     return app.run(argc, argv);
 }
